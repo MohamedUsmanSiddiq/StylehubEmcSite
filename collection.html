@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StyleHub</title>
+    <link rel="icon" href="images/image15.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!--font awesome icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--navbar section-->
+
+    <nav class="navbar">
+        <h1><i class="fa-solid fa-arrows-spin"></i>StyleHub</h1>
+
+        <div class="linkbar">
+            <p class="links"><a href="home.html">Home</a></p>
+            <p class="links"><a href="collection.html">Collections</a></p>
+            <p class="links"><a href="contact.html">Contact Us</a></p>
+        </div>
+
+        <div class="togglebutton" onclick="shownavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+    </nav>
+
+    <div class="sidebar">
+        <p class="xmark" onclick="closenavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <p class="sidebarlinks"><a href="home.html">Home</a></p>
+        <p class="sidebarlinks"><a href="collection.html">Collections</a></p>
+        <p class="sidebarlinks"><a href="contact.html">Contact Us</a></p>
+
+    </div>
+
+    <div class="collections">
+        <input class="search" type="search" placeholder="search">
+        <div class="men-images">
+            <div class="Products">
+                <img src="images/shirt.avif" width=200px height=200px>
+                <p>Mens Shirts</p>
+            </div>
+            <div class="Products">
+                <img src="images/pant.avif" width=200px height=200px>
+                <p>Mens Pants</p>
+            </div>
+            <div class="Products">
+                <img src="images/tshirt.webp" width=200px height=200px>
+                <p>Mens T-shirts</p>
+            </div>
+            <div class="Products">
+                <img src="images/chain.webp" width=200px height=200px>
+                <p>Mens Accessories</p>
+            </div>
+        </div>
+        <div class="women-images">
+            <div class="Products">
+                <img src="images/kurta.avif" width=200px height=200px>
+                <p>Women Kurta Set</p>
+            </div>
+            <div class="Products">
+                <img src="images/pantwomen.avif" width=200px height=200px>
+                <p>Women Pants</p>
+            </div>
+            <div class="Products">
+                <img src="images/womentshirt.avif" width=200px height=200px>
+                <p>Women Shirts</p>
+            </div>
+            <div class="Products">
+                <img src="images/makeup.avif" width=200px height=200px>
+                <p>Makeup Products</p>
+            </div>
+        </div>
+        <div class="kids-images">
+            <div class="Products">
+                <img src="images/kidshirt.avif" width=200px height=200px>
+                <p>Boys Shirts</p>
+            </div>
+            <div class="Products">
+                <img src="images/denim.avif" width=200px height=200px>
+                <p>Boys Pants</p>
+            </div>
+            <div class="Products">
+                <img src="images/skirt.avif" width=200px height=200px>
+                <p>Girls Skirt</p>
+            </div>
+            <div class="Products">
+                <img src="images/toys.avif" width=200px height=200px>
+                <p>Kids Toys</p>
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        <h3><i class="fa-solid fa-arrows-spin"></i>StyleHub</h3>
+        <div class="footer-section">
+            <p>Thank you for choosing styleHub have a nice day...</p>
+            <div class="icon">
+                <p><i class="fa-brands fa-facebook"></i></p>
+                <p><i class="fa-brands fa-twitter"></i></p>
+                <p><i class="fa-brands fa-instagram"></i></p>
+            </div>
+
+            <p>StyleHub20@gmail.com</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+    <script src="collection.js"></script>
+
+</body>
+
+</html>
